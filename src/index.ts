@@ -6,4 +6,5 @@
 
  // instead of the above,venums come in
 enum Size {small = 1, medium, large};
-let mySize: Size = Size.medium
+let mySize: Size = Size.medium;
+console.log(mySize);
