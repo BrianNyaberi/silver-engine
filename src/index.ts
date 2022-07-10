@@ -5,6 +5,7 @@
 // const large = 3
 
  // instead of the above,venums come in
-enum Size {small = 1, medium, large};
+const enum Size {small = 1, medium, large};
+ // Const fofr optimized output
 let mySize: Size = Size.medium;
 console.log(mySize);
