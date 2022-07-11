@@ -1,11 +1,10 @@
-// Enums
+// Functions,
+// Proper anotation of function, 3 strict mode features
 
-// const small = 1
-// const medium = 2
-// const large = 3
+function calcTax(income:number, taxYear:number) {
+    if (taxYear)
+        return income * 1.2;
+    return income * 1.3;
+}
 
- // instead of the above,venums come in
-const enum Size {small = 1, medium, large};
- // Const fofr optimized output
-let mySize: Size = Size.medium;
-console.log(mySize);
+calcTax(10000)
