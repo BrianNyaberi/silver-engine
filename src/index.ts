@@ -9,5 +9,5 @@ function kgToLbs(weight: number | string): number {
      } 
 }
 
-kgToLbs(10);
-kgToLbs('10kg');
+// kgToLbs(10);
+// kgToLbs('10kg');
