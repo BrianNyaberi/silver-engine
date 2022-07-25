@@ -9,5 +9,5 @@ function kgToLbs(weight: number | string): number {
      } 
 }
 
-// kgToLbs(10);
-// kgToLbs('10kg');
+let mySize = 2;
+console.log(mySize);
