@@ -1,6 +1,7 @@
-// Literal types - limit values assigned to a viable
+// Nullable types 
 
-type Quantity = 50 | 100;
-let quantity:Quantity = 100;
+function greet(name: string) {
+    console.log(name.toLocaleUpperCase())
+}
 
-type Metric = 'cm' | 'inch';
+// this will crash as we cant call .toUpper on a null object greet(null)
