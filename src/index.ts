@@ -1,7 +1,12 @@
-// Nullable types 
+// Nullable types (union operator)
 
-function greet(name: string) {
-    console.log(name.toLocaleUpperCase())
+function greet(name: string | null | undefined) {
+    if (name) {
+        console.log(name.toLocaleUpperCase())
+    } else {
+        console.log('Hola, buenos dias?')
+    }
+  
 }
 
-// this will crash as we cant call .toUpper on a null object greet(null)
+// this will crash as we can 
