@@ -1,3 +1,6 @@
 // Literal types - limit values assigned to a viable
 
-let quantity:50 = 50
+type Quantity = 50 | 100;
+let quantity:Quantity = 100;
+
+type Metric = 'cm' | 'inch';
